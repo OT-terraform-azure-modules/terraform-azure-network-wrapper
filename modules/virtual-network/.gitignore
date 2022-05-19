@@ -1,0 +1,40 @@
+
+Mehul  11:41 AM
+.terraform
+.tfstate
+
+# Local .terraform directories
+**/.terraform/*
+.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+crash.log
+.terraformrc
+terraform.rc
+
+# Ignoring files from example directory
+example/.terraform
+example/.terraform/*
+example/*.tfstate
+example/*.tfvars
+example/*terraform.*
+
+example/with_ddos_example/.terraform
+example/with_ddos_example/.terraform/*
+example/with_ddos_example/*.tfstate
+example/with_ddos_example/*.tfvars
+example/with_ddos_example/*terraform.*
+
+example/without_ddos_example/.terraform
+example/without_ddos_example/.terraform/*
+example/without_ddos_example/*.tfstate
+example/without_ddos_example/*.tfvars
+example/without_ddos_example/*terraform.*
+
+provider.tf
